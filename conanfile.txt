@@ -1,0 +1,11 @@
+[requires]
+boost/1.81.0
+nlohmann_json/3.11.2
+curl/7.86.0
+
+[generators]
+CMakeDeps
+CMakeToolchain
+
+[options]
+boost*:shared=False

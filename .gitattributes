@@ -1,0 +1,32 @@
+# Normalize line endings to LF in the repository; auto-convert on checkout.
+* text=auto eol=lf
+
+# Force LF for scripts and source that must not have CRLF
+*.sh        text eol=lf
+*.py        text eol=lf
+*.js        text eol=lf
+*.jsx       text eol=lf
+*.ts        text eol=lf
+*.tsx       text eol=lf
+*.cpp       text eol=lf
+*.h         text eol=lf
+*.cmake     text eol=lf
+CMakeLists.txt text eol=lf
+*.md        text eol=lf
+*.json      text eol=lf
+*.toml      text eol=lf
+*.txt       text eol=lf
+*.css       text eol=lf
+*.html      text eol=lf
+
+# Binary — do not modify
+*.exe       binary
+*.o         binary
+*.a         binary
+*.lib       binary
+*.dll       binary
+*.so        binary
+*.png       binary
+*.jpg       binary
+*.gif       binary
+*.ico       binary

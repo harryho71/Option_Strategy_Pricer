@@ -1,0 +1,108 @@
+# =============================================================================
+# Option Strategy Pricer — .gitignore
+# =============================================================================
+
+# ----------------------------------------------------------------------------
+# C++ Build Artifacts
+# ----------------------------------------------------------------------------
+build/
+Release/
+Debug/
+x64/
+x86/
+*.exe
+*.o
+*.obj
+*.a
+*.lib
+*.dll
+*.so
+*.dylib
+*.pdb
+*.ilk
+*.exp
+
+# CMake generated / user-specific files
+CMakeCache.txt
+CMakeFiles/
+cmake_install.cmake
+CTestTestfile.cmake
+CMakeUserPresets.json
+install_manifest.txt
+compile_commands.json
+_deps/
+cmake_build_debug/
+cmake_build_release/
+
+# ----------------------------------------------------------------------------
+# Python
+# ----------------------------------------------------------------------------
+.venv/
+venv/
+env/
+__pycache__/
+*.py[cod]
+*.pyo
+*.egg-info/
+dist/
+.pytest_cache/
+.coverage
+htmlcov/
+
+# ----------------------------------------------------------------------------
+# Node / React
+# ----------------------------------------------------------------------------
+node_modules/
+src/frontend/build/
+src/frontend/coverage/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# React env files — use .env.example as template; never commit real secrets
+src/frontend/.env
+src/frontend/.env.local
+src/frontend/.env.development.local
+src/frontend/.env.test.local
+src/frontend/.env.production.local
+
+# ----------------------------------------------------------------------------
+# Environment / Secrets
+# ----------------------------------------------------------------------------
+.env
+.env.*
+!.env.example
+!src/frontend/.env.example
+
+# ----------------------------------------------------------------------------
+# IDE & Editor
+# ----------------------------------------------------------------------------
+.vscode/
+!.vscode/extensions.json
+.idea/
+*.suo
+*.user
+*.swp
+*.swo
+*~
+
+# ----------------------------------------------------------------------------
+# OS
+# ----------------------------------------------------------------------------
+.DS_Store
+.DS_Store?
+._*
+Thumbs.db
+Desktop.ini
+
+# ----------------------------------------------------------------------------
+# Logs
+# ----------------------------------------------------------------------------
+*.log
+server.log
+frontend.log
+
+# ----------------------------------------------------------------------------
+# github
+# ----------------------------------------------------------------------------
+.github/
