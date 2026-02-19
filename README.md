@@ -46,8 +46,6 @@ Option_Strategy_Pricer/
 ├── third_party/
 │   ├── httplib/httplib.h           # cpp-httplib v0.30.1 (header-only)
 │   └── nlohmann/json.hpp           # nlohmann/json v3.11.2 (header-only)
-├── .github/
-│   └── copilot-instructions.md     # AI agent guidance for this codebase
 ├── build/                          # CMake build output (generated)
 ├── CMakeLists.txt                  # Builds: pricing_server, test_runner
 ├── conanfile.txt                   # Conan dependencies
