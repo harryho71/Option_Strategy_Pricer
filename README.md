@@ -3,7 +3,7 @@
 <p align="center">
   <img src="assets/Delta_Demo.png" alt="Greeks sensitivity chart" width="48%" />
   &nbsp;
-  <img src="assets/Leg_Details_Demo.png" alt="Portfolio leg details" width="48%" />
+  <img src="assets/Leg_Details_Demo_v2.png" alt="Portfolio leg details" width="48%" />
 </p>
 
 A full-stack quantitative finance system for pricing options and multi-leg strategies using the Black-Scholes model. The C++ pricing engine exposes a REST API consumed by a React dashboard.
